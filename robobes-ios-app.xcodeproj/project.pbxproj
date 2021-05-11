@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		D4496933264AFDD1006323D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4496932264AFDD1006323D5 /* AppDelegate.swift */; };
 		D4496935264AFDD1006323D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4496934264AFDD1006323D5 /* SceneDelegate.swift */; };
-		D4496937264AFDD1006323D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4496936264AFDD1006323D5 /* ViewController.swift */; };
 		D449693A264AFDD1006323D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4496938264AFDD1006323D5 /* Main.storyboard */; };
 		D449693C264AFDD7006323D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D449693B264AFDD7006323D5 /* Assets.xcassets */; };
 		D449693F264AFDD7006323D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D449693D264AFDD7006323D5 /* LaunchScreen.storyboard */; };
 		D449694A264AFDD7006323D5 /* robobes_ios_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4496949264AFDD7006323D5 /* robobes_ios_appTests.swift */; };
 		D4496955264AFDD8006323D5 /* robobes_ios_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4496954264AFDD8006323D5 /* robobes_ios_appUITests.swift */; };
+		D4496966264B0D1D006323D5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4496965264B0D1D006323D5 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		D449692F264AFDD1006323D5 /* robobes-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "robobes-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4496932264AFDD1006323D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4496934264AFDD1006323D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D4496936264AFDD1006323D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D4496939264AFDD1006323D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D449693B264AFDD7006323D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D449693E264AFDD7006323D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		D4496950264AFDD8006323D5 /* robobes-ios-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "robobes-ios-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4496954264AFDD8006323D5 /* robobes_ios_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = robobes_ios_appUITests.swift; sourceTree = "<group>"; };
 		D4496956264AFDD8006323D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4496965264B0D1D006323D5 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				D4496932264AFDD1006323D5 /* AppDelegate.swift */,
 				D4496934264AFDD1006323D5 /* SceneDelegate.swift */,
-				D4496936264AFDD1006323D5 /* ViewController.swift */,
 				D4496938264AFDD1006323D5 /* Main.storyboard */,
 				D449693B264AFDD7006323D5 /* Assets.xcassets */,
 				D449693D264AFDD7006323D5 /* LaunchScreen.storyboard */,
 				D4496940264AFDD7006323D5 /* Info.plist */,
+				D4496965264B0D1D006323D5 /* WebViewController.swift */,
 			);
 			path = "robobes-ios-app";
 			sourceTree = "<group>";
@@ -258,9 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4496937264AFDD1006323D5 /* ViewController.swift in Sources */,
 				D4496933264AFDD1006323D5 /* AppDelegate.swift in Sources */,
 				D4496935264AFDD1006323D5 /* SceneDelegate.swift in Sources */,
+				D4496966264B0D1D006323D5 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
