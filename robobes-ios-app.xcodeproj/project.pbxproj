@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4496933264AFDD1006323D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4496932264AFDD1006323D5 /* AppDelegate.swift */; };
+		D4496935264AFDD1006323D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4496934264AFDD1006323D5 /* SceneDelegate.swift */; };
+		D4496937264AFDD1006323D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4496936264AFDD1006323D5 /* ViewController.swift */; };
+		D449693A264AFDD1006323D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4496938264AFDD1006323D5 /* Main.storyboard */; };
+		D449693C264AFDD7006323D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D449693B264AFDD7006323D5 /* Assets.xcassets */; };
+		D449693F264AFDD7006323D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D449693D264AFDD7006323D5 /* LaunchScreen.storyboard */; };
+		D449694A264AFDD7006323D5 /* robobes_ios_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4496949264AFDD7006323D5 /* robobes_ios_appTests.swift */; };
+		D4496955264AFDD8006323D5 /* robobes_ios_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4496954264AFDD8006323D5 /* robobes_ios_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4496946264AFDD7006323D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4496927264AFDD1006323D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D449692E264AFDD1006323D5;
+			remoteInfo = "robobes-ios-app";
+		};
+		D4496951264AFDD8006323D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4496927264AFDD1006323D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D449692E264AFDD1006323D5;
+			remoteInfo = "robobes-ios-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D449692F264AFDD1006323D5 /* robobes-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "robobes-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4496932264AFDD1006323D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4496934264AFDD1006323D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4496936264AFDD1006323D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4496939264AFDD1006323D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D449693B264AFDD7006323D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D449693E264AFDD7006323D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4496940264AFDD7006323D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4496945264AFDD7006323D5 /* robobes-ios-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "robobes-ios-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4496949264AFDD7006323D5 /* robobes_ios_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = robobes_ios_appTests.swift; sourceTree = "<group>"; };
+		D449694B264AFDD7006323D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4496950264AFDD8006323D5 /* robobes-ios-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "robobes-ios-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4496954264AFDD8006323D5 /* robobes_ios_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = robobes_ios_appUITests.swift; sourceTree = "<group>"; };
+		D4496956264AFDD8006323D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D449692C264AFDD1006323D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4496942264AFDD7006323D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D449694D264AFDD8006323D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4496926264AFDD1006323D5 = {
+			isa = PBXGroup;
+			children = (
+				D4496931264AFDD1006323D5 /* robobes-ios-app */,
+				D4496948264AFDD7006323D5 /* robobes-ios-appTests */,
+				D4496953264AFDD8006323D5 /* robobes-ios-appUITests */,
+				D4496930264AFDD1006323D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4496930264AFDD1006323D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D449692F264AFDD1006323D5 /* robobes-ios-app.app */,
+				D4496945264AFDD7006323D5 /* robobes-ios-appTests.xctest */,
+				D4496950264AFDD8006323D5 /* robobes-ios-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4496931264AFDD1006323D5 /* robobes-ios-app */ = {
+			isa = PBXGroup;
+			children = (
+				D4496932264AFDD1006323D5 /* AppDelegate.swift */,
+				D4496934264AFDD1006323D5 /* SceneDelegate.swift */,
+				D4496936264AFDD1006323D5 /* ViewController.swift */,
+				D4496938264AFDD1006323D5 /* Main.storyboard */,
+				D449693B264AFDD7006323D5 /* Assets.xcassets */,
+				D449693D264AFDD7006323D5 /* LaunchScreen.storyboard */,
+				D4496940264AFDD7006323D5 /* Info.plist */,
+			);
+			path = "robobes-ios-app";
+			sourceTree = "<group>";
+		};
+		D4496948264AFDD7006323D5 /* robobes-ios-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4496949264AFDD7006323D5 /* robobes_ios_appTests.swift */,
+				D449694B264AFDD7006323D5 /* Info.plist */,
+			);
+			path = "robobes-ios-appTests";
+			sourceTree = "<group>";
+		};
+		D4496953264AFDD8006323D5 /* robobes-ios-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4496954264AFDD8006323D5 /* robobes_ios_appUITests.swift */,
+				D4496956264AFDD8006323D5 /* Info.plist */,
+			);
+			path = "robobes-ios-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D449692E264AFDD1006323D5 /* robobes-ios-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4496959264AFDD8006323D5 /* Build configuration list for PBXNativeTarget "robobes-ios-app" */;
+			buildPhases = (
+				D449692B264AFDD1006323D5 /* Sources */,
+				D449692C264AFDD1006323D5 /* Frameworks */,
+				D449692D264AFDD1006323D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "robobes-ios-app";
+			productName = "robobes-ios-app";
+			productReference = D449692F264AFDD1006323D5 /* robobes-ios-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4496944264AFDD7006323D5 /* robobes-ios-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D449695C264AFDD8006323D5 /* Build configuration list for PBXNativeTarget "robobes-ios-appTests" */;
+			buildPhases = (
+				D4496941264AFDD7006323D5 /* Sources */,
+				D4496942264AFDD7006323D5 /* Frameworks */,
+				D4496943264AFDD7006323D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4496947264AFDD7006323D5 /* PBXTargetDependency */,
+			);
+			name = "robobes-ios-appTests";
+			productName = "robobes-ios-appTests";
+			productReference = D4496945264AFDD7006323D5 /* robobes-ios-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D449694F264AFDD8006323D5 /* robobes-ios-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D449695F264AFDD8006323D5 /* Build configuration list for PBXNativeTarget "robobes-ios-appUITests" */;
+			buildPhases = (
+				D449694C264AFDD8006323D5 /* Sources */,
+				D449694D264AFDD8006323D5 /* Frameworks */,
+				D449694E264AFDD8006323D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4496952264AFDD8006323D5 /* PBXTargetDependency */,
+			);
+			name = "robobes-ios-appUITests";
+			productName = "robobes-ios-appUITests";
+			productReference = D4496950264AFDD8006323D5 /* robobes-ios-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4496927264AFDD1006323D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D449692E264AFDD1006323D5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D4496944264AFDD7006323D5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D449692E264AFDD1006323D5;
+					};
+					D449694F264AFDD8006323D5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D449692E264AFDD1006323D5;
+					};
+				};
+			};
+			buildConfigurationList = D449692A264AFDD1006323D5 /* Build configuration list for PBXProject "robobes-ios-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4496926264AFDD1006323D5;
+			productRefGroup = D4496930264AFDD1006323D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D449692E264AFDD1006323D5 /* robobes-ios-app */,
+				D4496944264AFDD7006323D5 /* robobes-ios-appTests */,
+				D449694F264AFDD8006323D5 /* robobes-ios-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D449692D264AFDD1006323D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D449693F264AFDD7006323D5 /* LaunchScreen.storyboard in Resources */,
+				D449693C264AFDD7006323D5 /* Assets.xcassets in Resources */,
+				D449693A264AFDD1006323D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4496943264AFDD7006323D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D449694E264AFDD8006323D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D449692B264AFDD1006323D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4496937264AFDD1006323D5 /* ViewController.swift in Sources */,
+				D4496933264AFDD1006323D5 /* AppDelegate.swift in Sources */,
+				D4496935264AFDD1006323D5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4496941264AFDD7006323D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D449694A264AFDD7006323D5 /* robobes_ios_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D449694C264AFDD8006323D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4496955264AFDD8006323D5 /* robobes_ios_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4496947264AFDD7006323D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D449692E264AFDD1006323D5 /* robobes-ios-app */;
+			targetProxy = D4496946264AFDD7006323D5 /* PBXContainerItemProxy */;
+		};
+		D4496952264AFDD8006323D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D449692E264AFDD1006323D5 /* robobes-ios-app */;
+			targetProxy = D4496951264AFDD8006323D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4496938264AFDD1006323D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4496939264AFDD1006323D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D449693D264AFDD7006323D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D449693E264AFDD7006323D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4496957264AFDD8006323D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4496958264AFDD8006323D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D449695A264AFDD8006323D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "robobes-ios-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eceazizoglu.robobes-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D449695B264AFDD8006323D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "robobes-ios-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eceazizoglu.robobes-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D449695D264AFDD8006323D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "robobes-ios-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eceazizoglu.robobes-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/robobes-ios-app.app/robobes-ios-app";
+			};
+			name = Debug;
+		};
+		D449695E264AFDD8006323D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "robobes-ios-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eceazizoglu.robobes-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/robobes-ios-app.app/robobes-ios-app";
+			};
+			name = Release;
+		};
+		D4496960264AFDD8006323D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "robobes-ios-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eceazizoglu.robobes-ios-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "robobes-ios-app";
+			};
+			name = Debug;
+		};
+		D4496961264AFDD8006323D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "robobes-ios-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eceazizoglu.robobes-ios-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "robobes-ios-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D449692A264AFDD1006323D5 /* Build configuration list for PBXProject "robobes-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4496957264AFDD8006323D5 /* Debug */,
+				D4496958264AFDD8006323D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4496959264AFDD8006323D5 /* Build configuration list for PBXNativeTarget "robobes-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D449695A264AFDD8006323D5 /* Debug */,
+				D449695B264AFDD8006323D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D449695C264AFDD8006323D5 /* Build configuration list for PBXNativeTarget "robobes-ios-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D449695D264AFDD8006323D5 /* Debug */,
+				D449695E264AFDD8006323D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D449695F264AFDD8006323D5 /* Build configuration list for PBXNativeTarget "robobes-ios-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4496960264AFDD8006323D5 /* Debug */,
+				D4496961264AFDD8006323D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4496927264AFDD1006323D5 /* Project object */;
+}
